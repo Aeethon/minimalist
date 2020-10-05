@@ -6,7 +6,7 @@
 <hr>
 <p align="center">
 <a alt="Servidor do Discord">
-    <a href="https://discord.gg/s5y9A4Y"><img src="https://discordapp.com/api/guilds/330547455273992202/embed.png" alt="Servidor do Discord" /></a>
+    <a href="https://discord.gg/ATb6NUb"><img src="https://discordapp.com/api/guilds/330547455273992202/embed.png" alt="Servidor do Discord" /></a>
 </a>
 </p>
 
