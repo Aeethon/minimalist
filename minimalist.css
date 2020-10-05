@@ -1,4 +1,4 @@
-@import url("https://aeethon.github.io/minimalist/minimalist.css")
+
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
@@ -9,6 +9,81 @@
   --server-icon-spacing: 8px; /* Spacing between server icons. Negative values are allowed | DEFAULT: 8px */
   --server-container-padding: 10px; /* Spacing to the left and right sides of server icons | DEFAULT: 10px */
 }
+
+
+
+/* Align topbar buttons to the left */
+.titleBar-AC4pGV.directionRowReverse-m8IjIq {
+  flex-direction: row;
+}
+.winButtonMinMax-PBQ2gm, .winButtonClose-1HsbF- {
+  margin: 0;
+  width: 22px;
+  right: -5px;
+}
+.winButtonClose-1HsbF- {
+  order: 1;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Maximize"] {
+  order: 2;
+}
+.winButtonMinMax-PBQ2gm[aria-label="Minimize"] {
+  order: 3;
+}
+.wordmarkWindows-1v0lYD {
+  position: relative;
+  padding-top: 0;
+  padding-left: 4px;
+  order: 4;
+}
+
+.platform-win .typeWindows-1za-n7 {
+  height: 9px;
+  margin-top: 0;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  background: 0 0
+}
+
+/* mac buttons for cool people */
+.typeWindows-1za-n7 {
+  background-color: transparent;
+}
+.winButton-iRh8-Z {
+  margin-top: 6px;
+  top: 6px;
+  margin-right: 5px;
+  opacity: 0.8;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+.winButton-iRh8-Z svg {
+  display: none;
+}
+.winButtonClose-1HsbF- {
+  background-color: #a3a3a2;
+}
+.winButtonMinMax-PBQ2gm:nth-child(3) {
+  background-color: #a3a3a2;
+}
+.winButtonMinMax-PBQ2gm:nth-child(4) {
+  background-color: #a3a3a2;
+}
+.scroller-2TZvBN {
+  margin-top: 30px;
+}
+
+
+.membersWrap-2h-GB4 {
+  margin-top: 10px !important;
+}
+
+
+
+
 
 
 
@@ -34,6 +109,9 @@
 .peopleListItem-2nzedh {
   background-color: transparent;
 }
+
+
+
 
 .peopleListItem-2nzedh:hover {
   transition: all 0.3s ease;
@@ -106,40 +184,39 @@
 
 }
 
-
-/* mac buttons for cool people */
-.typeWindows-1za-n7 {
-  background-color: transparent;
+.bannerImage-1jOskm:before
+{
+    background: linear-gradient(0deg,var(--background-secondary) 1%,transparent 66%, rgba(0, 0, 0, 0.192) 100%);
+    height: 100%;
 }
-.winButton-iRh8-Z {
-  margin-top: 6px;
-
-  margin-right: 10px;
-  opacity: 0.8;
-  border-radius: 100%;
-  width: 12px;
-  height: 12px;
+.animatedContainer-1pJv5C
+{
+    box-shadow: none !important;
 }
-.winButton-iRh8-Z svg {
-  display: none;
-}
-.winButtonClose-1HsbF- {
-  background-color: #a3a3a2;
-}
-.winButtonMinMax-PBQ2gm:nth-child(3) {
-  background-color: #a3a3a2;
-}
-.winButtonMinMax-PBQ2gm:nth-child(4) {
-  background-color: #a3a3a2;
-}
-.scroller-2TZvBN {
-  margin-top: 0px;
+.wrapper-3EGhDO {
+    background-color: var(--background-secondary);
+    border-radius: 25px;
+    padding: 0px;
 }
 
-
-.membersWrap-2h-GB4 {
-  margin-top: 10px !important;
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: currentColor;
 }
+
+.colorable-1bkp8v.primary-3NQg8g,
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
+.colorable-1bkp8v.white-3GPOIp,
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.red-33-Lnk {
+    background: none !important;
+}
+
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6"][style="flex: 1 1 auto;"]{
+  background-color: var(--background-secondary);
+  border-radius: 30px;
+}
+
 
 .members-1998pB {
   border-top-left-radius: 30px !important;
@@ -1858,6 +1935,4 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
   transition: 0.2s;
 transform: translateY(-0.75px);
 }
-
-
 
