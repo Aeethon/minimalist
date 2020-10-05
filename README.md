@@ -12,7 +12,7 @@
 Um Tema relativo ao Dracula, em desenvolvimento /Updates/Bugs/!!!
 ```
 ```css
-@import url("https://aeethon.github.io/anokai-theme/anokai.css")
+@import url("https://aeethon.github.io/minimalist/minimalist.css")
 ```
 
 <hr>
