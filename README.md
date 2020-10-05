@@ -17,6 +17,5 @@ Um Tema relativo ao Dracula, em desenvolvimento /Updates/Bugs/!!!
 
 <hr>
 
- ![88344890-07fc2e80-cd1b-11ea-962c-6241a2fc8608](https://user-images.githubusercontent.com/66197267/94633881-f435f100-02a4-11eb-8b00-353bddfe8246.png)
-
+![Screenshot_2](https://user-images.githubusercontent.com/66197267/95032898-9fbeb700-0692-11eb-8ad1-5c5c4dbd30b4.png)
 
