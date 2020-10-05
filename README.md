@@ -1,0 +1,2 @@
+# minimalist
+discord theme minimalist
