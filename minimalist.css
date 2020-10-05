@@ -3,6 +3,8 @@
 @import url("https://raw.githack.com/Snapperito/CSS-Snippets/main/Settings%20Icons/settingsicons.css");
 @import url("https://raw.githack.com/LuckFire/CSS-Snippets/master/BetterChannelIndicators/indicators.css");
 @import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
+@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
+
 
 :root {
   --server-icon-size: 40px; /* Size of the server icons | DEFAULT: 35px */
