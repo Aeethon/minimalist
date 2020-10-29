@@ -1,8 +1,8 @@
 {
-    "name": "anokai",
-    "description": "anokai theme horizon",
+    "name": "minimalist theme",
+    "description": "Minimalist theme",
     "version": "1.0",
-    "author": "Aethon#8162",
+    "author": "Nowack#9942",
     "license": "GNU GPL",
-    "theme": "kitana.css"
+    "theme": "minimalist.css"
 }  
