@@ -294,10 +294,16 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
     --user-background: url('https://i.imgur.com/s1lODnp.gif');
   }
 
-    /*aethon*/
-    [user_by_bdfdb*="732589984887996466"],
-    [data-user-id*="732589984887996466"] {
-      --user-background: url('https://i.imgur.com/22tXplt.gif');
+    /*hyaku*/
+    [user_by_bdfdb*="343457636995432449"],
+    [data-user-id*="343457636995432449"] {
+      --user-background: url('https://i.imgur.com/ykKoqyK.gif');
+    }
+
+	/*sense*/
+    [user_by_bdfdb*="380050768431939594"],
+    [data-user-id*="380050768431939594"] {
+      --user-background: url('https://i.imgur.com/ImZyRxH.gif');
     }
 
 
